@@ -19,10 +19,8 @@ async function loadPlaylistContents(api: SpotifyWebApi, playlistId: string) {
       "of",
       paging?.total ?? "unknown",
       "tracks"
-      // paging
     );
 
-    // const offset = paging?.offset ?? 0;
     const resp = await api.getPlaylistTracks(playlistId, {
       fields: apiFields,
       offset: nextOffset,
