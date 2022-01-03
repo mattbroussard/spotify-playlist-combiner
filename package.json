@@ -1,0 +1,18 @@
+{
+  "name": "spotify-playlist-combiner",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node-transpile-only spotify-playlist-combiner.ts",
+    "dev": "ts-node spotify-playlist-combiner.ts",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "spotify-web-api-node": "^5.0.2",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.41",
+    "@types/spotify-web-api-node": "^5.0.4"
+  }
+}
