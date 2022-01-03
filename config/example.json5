@@ -1,0 +1,17 @@
+{
+  "credentials": {
+    // OAuth token from API console
+    // Requires scopes playlist-read-private, playlist-modify-private, playlist-read-collaborative
+    "accessToken": "..."
+  },
+  "input_playlists": [
+    // Bare playlist IDs (not URIs) to draw from, in order
+    "...",
+    "..."
+  ],
+  // Single bare playlist ID (not URI) to output tracks into
+  "output_playlist": "...",
+  // Optional: Spotify user ID whose additions to input playlist should be filtered to. If present,
+  // only that user's added tracks are included. If omitted, all tracks are included.
+  "filter_creator": "..."
+}
